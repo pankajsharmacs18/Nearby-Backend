@@ -1,0 +1,18 @@
+{
+  "name": "local-commerce-marketplace",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Local Commerce Marketplace - Monorepo for local commerce platform",
+  "workspaces": [
+    "lib",
+    "backend",
+    "frontend"
+  ],
+  "scripts": {
+    "build": "tsc --build tsconfig.json",
+    "clean": "tsc --build tsconfig.json --clean"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
